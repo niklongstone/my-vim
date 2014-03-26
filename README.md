@@ -8,5 +8,5 @@ below the requires bundles
 
 NERDTree
 
-cd ~/.vim/bundle
+cd ~/.vim/bundle 
 git clone https://github.com/scrooloose/nerdtree.git
