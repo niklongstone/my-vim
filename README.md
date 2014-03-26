@@ -1,23 +1,12 @@
 myVim
 =====
 
-my Vim configuration for PHP IDE
+my Vim configuration for setting up a PHP IDE
 
-below my .vimrc file
+below the requires bundles
 ============================
 
-set nu
-set tabstop=3
-set shiftwidth=3
-set autoindent
+NERDTree
 
-autocmd FileType php noremap <C-M> :w!<CR>:!php %<CR>
-
-filetype plugin on
-set omnifunc=syntaxcomplete#Complete
-autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
-autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-
-set tags=~/.vim/syntax/php.tags
-
-call pathogen#infect()
+cd ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdtree.git
