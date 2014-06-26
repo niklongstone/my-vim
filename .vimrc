@@ -1,7 +1,7 @@
 set nu
-set tabstop=3
+set tabstop=4
 set expandtab
-set shiftwidth=3
+set shiftwidth=4
 set autoindent
 set mouse=a
 
