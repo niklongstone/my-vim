@@ -6,6 +6,8 @@ set autoindent
 set mouse=a
 
 autocmd FileType php noremap <C-M> :w!<CR>:!php %<CR>
+autocmd FileType ruby noremap <C-M> :w!<CR>:!ruby %<CR>
+
 autocmd vimenter * NERDTree
 
 filetype plugin on
