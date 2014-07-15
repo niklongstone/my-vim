@@ -1,11 +1,13 @@
 set nu
-set tabstop=3
+set tabstop=4
 set expandtab
-set shiftwidth=3
+set shiftwidth=4
 set autoindent
 set mouse=a
 
 autocmd FileType php noremap <C-M> :w!<CR>:!php %<CR>
+autocmd FileType ruby noremap <C-M> :w!<CR>:!ruby %<CR>
+
 autocmd vimenter * NERDTree
 
 filetype plugin on
