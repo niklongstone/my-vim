@@ -7,6 +7,7 @@ set mouse=a
 
 autocmd FileType php noremap <C-M> :w!<CR>:!php %<CR>
 autocmd FileType ruby noremap <C-M> :w!<CR>:!ruby %<CR>
+autocmd FileType python noremap <C-M> :w!<CR>:!python %<CR>
 
 autocmd vimenter * NERDTree
 
